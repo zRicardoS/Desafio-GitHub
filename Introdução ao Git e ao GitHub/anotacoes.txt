@@ -1,0 +1,30 @@
+
+git init
+Inicializa o git, utiliza-se esse comando em determinada página de nosso projeto. Para que ele comece de fato a versionar o código.
+
+Informação: ls -a
+Tal comando mostra os itens ocultos de determinada página por meio do terminal
+cd ..
+Voltar um caminho ao olhar páginas no terminal
+mv nome_arquivo ./destino
+
+Extra:
+Configuração Inicial: Tal configuração tem enfoque em informações, afinal será por meio dela que dará para citar quem “modificou” tal código, quem realizou tal commit. Inclusive, esse comando é realizado apenas inicialmente
+git config --global user.email “e-mail”
+git config --global user.name Nome/Name/Autor
+
+o --global relaciona-se em uma configuração geral que será válida para todos os repositórios
+
+git add *
+git commit -m “Texto”
+
+Ciclo de Vida
+git status
+Monitorar os status dos arquivos
+
+gif config --list
+git remote add origin link-repositório
+git remote -v
+git push origin master
+git pull origin master
+
